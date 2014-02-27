@@ -6,6 +6,14 @@
 Outline Notes
 -------------
 
+@CTB: The typical organization for a paper is, Introduction; Methods and Results; Discussion; Conclusion.
+(These can go in different order, e.g. Intro, Results, Discussion, Conclusion, Methods.)  Methods and Results
+are the most important for writing a paper at this early stage.  I think you've filled out the rest adequately.
+
+Could you put this into that framework?
+
+I'd be particularly interested in hearing descriptions of the 2-4 figures/tables that you would use.
+
 Theoretical Uses
 ~~~~~~~~~~~~~~~~
 
@@ -15,8 +23,8 @@ Theoretical Uses
 * fast estimation of graph similarity
 * alignment optization and parallelization
 
-Implentation Showcases
-~~~~~~~~~~~~~~~~~~~~~~
+Implementation Showcases
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * read retrieval for abundance estimation -- show on lamprey, ecoli, simulation
 * graph connectivity analysis
