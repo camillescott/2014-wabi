@@ -17,7 +17,7 @@ I'd be particularly interested in hearing descriptions of the 2-4 figures/tables
 Abstract
 --------
 
-Current algorithms for short-read assembly rely on de Bruijn graphs to store all k-mers from a set of reads. This method is preferred for its constant-time querying, removal of redundancy, avoidance of all-by-all alignment as in overlap-lay-consensus models, and relative simplicity of information. However, de Bruijn graphs suffer from loss of source information; that is, they do not encode which sequence or sequences a particular k-mer originated in. This information can be leveraged for a variety of analysis and processing tasks.  We introduce a method for sparsely tagging a de Bruijn graph and associating labels with these tags, which we argue represent a sufficient approximation of local k-mer origin. 
+Current algorithms for short-read assembly rely on de Bruijn graphs to store all k-mers from a set of reads. This method is preferred for its constant-time querying, removal of redundancy, avoidance of all-by-all alignment as in overlap-lay-consensus models, and relative simplicity of information. However, de Bruijn graphs suffer from loss of source information; that is, they do not encode which sequence or sequences a particular k-mer originated in. This information can be leveraged for a variety of analysis and processing tasks.  We introduce a method for sparsely tagging a de Bruijn graph and associating labels with these tags, which we argue represent a sufficient approximation of local k-mer origin. This method is implemented in the khmer suite, with associated tools packaged in the python library peasoup [link to both].
 
 Introduction
 ------------
