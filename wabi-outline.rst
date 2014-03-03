@@ -50,12 +50,17 @@ Practical Results
 	for comparison to non-swept, subset dataset for tractilbility
     - **figure**: table to compare stats of assemly versus read swept assembly (for correctness)?
 	less sure on this one, but seems important
+	
+* @CTB suggest: using this to retreive all reads that might map to a sequence. show that mapping with e.g. bwa returns
+  identical results.
  
 * graph connectivity analysis
 
     - **figure**: connectivity heatmap
 	it's cool and flashy, but still need to explore repartitioning implications, otherwise worthless.
 	perhaps leave this for a different time?
+
+    - @CTB I think this is OK to plan to leave in, we can drop it if we have enough other.  What are WABI sub guidelines?
 
 
 Benchmarking
